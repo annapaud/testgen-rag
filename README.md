@@ -48,6 +48,6 @@ testgen-rag/
 
 ## Output Artifacts
 
-Test outputs are written directly to \	ests/\:
-* \	ests/scenarios.json\: High-level scenario mapping.
-* \	ests/detailed_test_cases.json\: Complete step-by-step test execution scripts.
+Test outputs are written directly to tests folder:
+* tests/scenarios.json\: High-level scenario mapping.
+* tests/detailed_test_cases.json\: Complete step-by-step test execution scripts.
