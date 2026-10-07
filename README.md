@@ -25,26 +25,11 @@ Prompts are externalized in prompts to allow model tuning without changing appli
 
 ---
 
-## Project Structure
+## Project Workflow
 
-testgen-rag/
-├── data/
-│   └── docs/
-├── prompts/
-│   ├── scenario_prompt.txt
-│   └── detailed_case_prompt.txt
-├── src/
-│   ├── ingest.py
-│   └── query.py
-├── tests/
-│   ├── scenarios.json
-│   └── detailed_test_cases.json
-├── docker-compose.yml
-├── Dockerfile
-└── requirements.txt
-
----
-
+1. Ingest Phase
+2. Generation Phase
+3. Artifact Output
 
 ## Output Artifacts
 
