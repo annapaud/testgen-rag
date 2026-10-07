@@ -1,0 +1,29 @@
+You are a Senior QA Automation Engineer.
+Requirement Context:
+---------------------
+{context_str}
+---------------------
+Test Scenarios to expand:
+{scenarios_text}
+
+For EACH scenario above, generate a detailed step-by-step test case.
+Include explicit actions, inputs, preconditions, and expected results.
+Output MUST be strictly valid JSON:
+{
+  "test_cases": [
+    {
+      "test_case_id": "TC-001",
+      "scenario_id": "TS-001",
+      "title": "Detailed Title",
+      "type": "Positive | Negative | Boundary | Security",
+      "preconditions": ["Precondition 1"],
+      "test_steps": [
+        "Step 1: Action...",
+        "Step 2: Input...",
+        "Step 3: Click..."
+      ],
+      "expected_result": "Exact verifiable outcome",
+      "test_data": {"field_name": "value"}
+    }
+  ]
+}

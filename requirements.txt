@@ -1,0 +1,8 @@
+llama-index-core
+llama-index-readers-file
+llama-index-vector-stores-qdrant
+llama-index-llms-ollama
+llama-index-embeddings-ollama
+qdrant-client
+pypdf
+pandas

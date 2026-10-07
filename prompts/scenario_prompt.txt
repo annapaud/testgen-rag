@@ -1,0 +1,21 @@
+You are a Lead QA Architect.
+Analyze the following software requirement context:
+---------------------
+{context_str}
+---------------------
+For the requirement query: {query_str}
+
+Identify ALL relevant Test Scenarios (High-Level 'What to Test').
+Group them by type: Positive, Negative, Boundary Value Analysis, and Security.
+Output MUST be valid JSON:
+{
+  "feature": "Feature Name",
+  "scenarios": [
+    {
+      "scenario_id": "TS-001",
+      "title": "Scenario description",
+      "type": "Positive | Negative | Boundary | Security",
+      "requirement_ref": "Section or Rule Ref"
+    }
+  ]
+}
