@@ -27,22 +27,21 @@ Prompts are externalized in prompts to allow model tuning without changing appli
 
 ## Project Structure
 
-\\\	ext
 testgen-rag/
-+-- data/docs/                   # Requirements & specifications (.md, .pdf)
-+-- prompts/                     # External prompt templates
-   +-- scenario_prompt.txt
-   +-- detailed_case_prompt.txt
-+-- src/
-   +-- ingest.py               # Qdrant document indexing
-   +-- query.py                # Interactive CLI & 2-stage generator
-+-- tests/                      # Saved output artifacts
-   +-- scenarios.json
-   +-- detailed_test_cases.json
-+-- docker-compose.yml
-+-- Dockerfile
-+-- requirements.txt
-\\\
+├── data/
+│   └── docs/
+├── prompts/
+│   ├── scenario_prompt.txt
+│   └── detailed_case_prompt.txt
+├── src/
+│   ├── ingest.py
+│   └── query.py
+├── tests/
+│   ├── scenarios.json
+│   └── detailed_test_cases.json
+├── docker-compose.yml
+├── Dockerfile
+└── requirements.txt
 
 ---
 
